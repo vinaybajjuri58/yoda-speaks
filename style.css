@@ -2,14 +2,15 @@
 
 body{
     font-family: 'East Sea Dokdo', cursive;
-    margin: null;
+    margin: 0;
 }
-.heading{
-    padding-left: 1rem;
-    height: 15%;
+#heading{
     background-color: rgba(8, 211, 52, 0.678);
+    height: 100px;
     text-align: center;
-    font-size: 45px;
+    padding-top: 30px;
+    margin: 0;
+    font-size: 3rem ;
 }
 #btnTranslate{
     padding: 0.4rem 2rem;
@@ -17,20 +18,20 @@ body{
     border-radius: 0.5rem;
 }
 #inputText{
-    width: 80%;
-    height: 10vh;
     display: block;
     padding: 1rem;
-    border-radius: 1rem;
     border: 1.5px solid black;
-    margin-bottom: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    font-size: large;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 #outputText{
     border: 2px solid black;
     height: 10vh;
-    width: 80%;
     padding: 1rem;
-    border-radius: 1rem;
     margin-top: 1rem;
 }
 footer{
@@ -41,4 +42,10 @@ footer{
 
 p{
     font-size: 40px;
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    align-items: center;
+    width: 60%;
 }
